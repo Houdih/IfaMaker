@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color:rgb(94, 92, 92);
+    background: rgba(0,0,0,0.5);
+}
+
+.boxLogin {
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(253, 253, 253);
+    text-align: center;
+    box-shadow: 0 0 15px orange;
+}
+
+input {
+    display: block;
+
+    width: 170px;
+    margin: 36px auto;
+    padding: 14px 10px;
+    border: 2px solid orange;
+    border-radius: 24px;
+    
+    font-size: 15px;
+    text-align: center;
+
+    background: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:hover, 
+input[type="password"]:hover {
+    width: 240px;
+}
+
+input[type="submit"] {
+    width: 110px;
+    background: orange;
+    border: 2px solid rgb(158, 158, 158) ;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background: radial-gradient(white,orange);   
+    cursor: pointer;
+}
+
+.logoIfaMaker {
+    width: 200px;
+}
+
